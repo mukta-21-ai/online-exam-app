@@ -1,0 +1,11 @@
+
+{
+  "name": "online-exam-app",
+  "version": "1.0.0",
+  "description": "Simple online exam application for Jenkins CI",
+  "type": "module",
+  "scripts": {
+    "build": "node --check src/exam.js",
+    "test": "node --test"
+  }
+}
